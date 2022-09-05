@@ -16,7 +16,7 @@ body {
 }
 
 article {
-  width:50vw;
+  width:100vw;
   max-width: 25em;
   min-width:20em;
   display:flex;
@@ -42,7 +42,7 @@ header {
 
 h1 {
   margin:2rem 0 1rem;
-  color: rgba(0,239,255,1);
+  color: rgb(3, 24, 76);
 }
 
 button {
@@ -164,4 +164,9 @@ body.expand dd {
 
 body.expand img {
   width:15em;
+}
+
+Beschrijving{
+  text-align: left;
+  width: 50px;
 }
