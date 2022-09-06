@@ -16,12 +16,9 @@ body {
 }
 
 article {
-  width:100vw;
-  max-width: 25em;
-  min-width:20em;
   display:flex;
   flex-direction:column;
-  align-items:center;
+  align-items:left;
   justify-content:flex-end;
   background: rgb(0,239,255);
   background: linear-gradient(0deg, rgba(0,239,255,1) 40%, #4e54c8 100%);
@@ -42,45 +39,13 @@ header {
 
 h1 {
   margin:2rem 0 1rem;
-  color: rgb(3, 24, 76);
+  color: rgba(0,239,255,1);
 }
 
-button {
-  border:none;
-  position: absolute;
-  right:1rem;
-  top:1rem;
-  width:2.5rem;
-  height:2.5rem;
-  transform: scale(.8);
-  background: rgba(0,239,255,1);
-  border-radius:50%;
-  padding:.25rem;
-  transition:.25s;
-}
-button:focus {
-  outline:none;
-  background:#202592;
-}
-button:focus svg {
-  stroke: rgba(0,239,255,1);
-}
-
-svg {
-  stroke: #4e54c8;
-  position: absolute;
-  top:calc(1.25rem - 12px);
-  left:calc(1.25rem - 12px);
-  transition-delay: .25s;
-}
-button svg:nth-of-type(2) {
-  opacity:0;
-  transition-delay: 0ms;
-}
 
 img {
   width:10em;
-  border-radius:10em;
+  border-radius:20em;
   border:5px solid #fff;
   box-shadow:0 0 2px 2px rgba(0,0,0,.2);
   position:relative;
@@ -103,7 +68,7 @@ dl {
   padding:5rem 0 3rem;
   margin-top: -3rem;
   margin-bottom: 0;
-  text-align: center;
+  text-align: right;
 }
 
 dt{
@@ -133,40 +98,8 @@ article > p {
   padding:3rem 2rem;
   margin-top: 0;
   background:rgba(255,255,255, 0.5);
-  text-align:center;
+  text-align:left;
   border-radius: 0 0 1rem 1rem;
-  width:100%;
+  width:200%;
 }
 
-/* expand content */
-body.expand {
-  font-size:1.15em;
-}
-
-body.expand article {
-  width:60vw;
-  max-width: 60vw;
-}
-
-body.expand button svg:first-of-type {
-  opacity:0;
-  transition-delay: 0ms;
-}
-
-body.expand button svg:nth-of-type(2) {
-  opacity:1;
-  transition-delay:.25s;
-}
-
-body.expand dd {
-  font-size: 1.75em;
-}
-
-body.expand img {
-  width:15em;
-}
-
-Beschrijving{
-  text-align: left;
-  width: 50px;
-}
