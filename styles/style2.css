@@ -8,15 +8,15 @@ body {
     display:flex;
     justify-content:center;
     align-items:center;
-    color:#10214e;
+    color:#030303;
   }
 
   article {
     display:flex;
     flex-direction:column;
     justify-content:flex-end;
-    background: rgb(0,239,255);
-    background: linear-gradient(0deg, rgb(199, 206, 206) 40%, #a7d88e 100%);
+    background: rgb(245, 246, 246);
+    background: linear-gradient(0deg, rgb(255, 255, 255) 40%, #a2a2c6 100%);
     box-shadow:0 0 20px 20px rgba(0,0,0,.1);
     border-radius:1rem;
     position: relative;
@@ -34,15 +34,16 @@ body {
 
   .div{
     display: flex;
-    border-bottom-style: solid;
+    
     
   }
   .naam{
     text-align: center;
     margin-top: 22%;
+    margin-left: 15%;
   }
   .leeftijd{
-  text-align: right;
+     text-align: right;
   }
   
   dt{
@@ -61,6 +62,6 @@ body {
     display: none;
   }
 
-  button{
+  .button{
     margin-left: 20%;
   }
