@@ -28,7 +28,7 @@ body {
     border:5px solid #fff;
     box-shadow:0 0 2px 2px rgba(0,0,0,.2);
     position:relative;
-    margin-top:1rem;
+    top:1rem;
     transition:.25s .15s;
   }
 
@@ -38,8 +38,7 @@ body {
     
   }
   .naam{
-    text-align: center;
-    margin-top: 22%;
+    text-align: right;
   }
   .leeftijd{
   text-align: right;
@@ -58,9 +57,4 @@ body {
 
   dl{
     margin-left: 5%;
-    display: none;
-  }
-
-  button{
-    margin-left: 20%;
   }
