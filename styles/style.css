@@ -18,7 +18,6 @@ body {
 article {
   display:flex;
   flex-direction:column;
-  align-items:left;
   justify-content:flex-end;
   background: rgb(0,239,255);
   background: linear-gradient(0deg, rgba(0,239,255,1) 40%, #4e54c8 100%);
@@ -40,6 +39,7 @@ header {
 h1 {
   margin:2rem 0 1rem;
   color: rgba(0,239,255,1);
+  text-align: right;
 }
 
 
@@ -71,30 +71,19 @@ dl {
   text-align: right;
 }
 
-dt{
+//dt{
   font-weight: bold;
   border-top: 1px solid rgba(0,0,0,0.3);
   padding-top: .25rem;
   margin-top: .25rem;
 }
-dt:nth-of-type(1){ grid-area: html-dt; }
-dt:nth-of-type(2){ grid-area: css-dt; transform: translateY(1rem);}
-dt:nth-of-type(3){ grid-area: js-dt; }
 
-dd {
-  margin:0;
-  padding-left:.3rem;
-  transition:.25s .3s;
-}
-dd:nth-of-type(2){  
-  transform: translateY(1rem);
-}
 
-p { 
+//p { 
   margin:0
 }
 
-article > p {
+//article > p {
   padding:3rem 2rem;
   margin-top: 0;
   background:rgba(255,255,255, 0.5);
@@ -103,3 +92,17 @@ article > p {
   width:200%;
 }
 
+div{
+  display: flex;
+  
+}
+.naam{
+  text-align: right;
+
+}
+.text{
+ 
+}
+.div{
+  
+}
