@@ -32,18 +32,30 @@ body {
     box-shadow:0 0 2px 2px rgba(0,0,0,.2);
     position:static;
     margin-top:1rem;
-    
+    margin-left: 5%;
   }
 
   .div{
     display: flex;
+    flex-direction: row;
     padding-bottom: 25px;
     width: 500px;
     
   }
-  .welcomeDiv{
-    
+
+  #welcomeDiv{
+    transform: scaleY(0);
+    height: 0;
+    transition: all 1s;
 }
+  
+#welcomeDiv.visible {
+  transform: scaleY(1);
+  height: 100%;
+  opacity: 1;
+  margin-left: 7%;
+}
+
   .naam{
     text-align: center;
     margin-top: 22%;
@@ -66,7 +78,6 @@ body {
 
   dl{
     margin-left: 5%;
-    display: none;
   }
 
   .button{

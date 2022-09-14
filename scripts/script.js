@@ -1,4 +1,4 @@
-
+let welcomeDiv = document.querySelector('#welcomeDiv');
 
 function expand () {
   document.body.classList.toggle('expand')
@@ -10,7 +10,7 @@ function showDiv() {
     //hide button
     btn.style.display = 'none';
    
-  document.getElementById('welcomeDiv').style.display = "block";
+    welcomeDiv.classList.add('visible');
 
  
 
