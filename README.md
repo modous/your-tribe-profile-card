@@ -16,3 +16,4 @@ Het visitekaartje klapt uit en dan zie je dit:
 <img width="751" alt="Schermafbeelding 2022-09-14 om 12 11 35" src="https://user-images.githubusercontent.com/34092733/190127016-d211253c-2606-426c-a621-3c2586de5b0d.png">
 
 
+Mijn website kan je vinden op: https://modous.github.io/your-tribe-profile-card/
